@@ -21,29 +21,47 @@
 		}
 	}
 
-	.l-page {
-		display: none;
+	.panels-flexible-row,
+	.panels-flexible-row > *,
+	.panels-flexible-row > * > *,
+	.panels-flexible-row > * > * > *, {
+		min-height: 680px;
 	}
 
-	.l-header,
-	.l-main {
-		max-width: 100%;
+	.panels-flexible-region {
+		width: 100%;
 	}
 
-	.l-header {
+	.section-header {
 		background: url('../images/page-screen-large.jpg') 50% 0 no-repeat fixed;
 		@include background-size(cover);
+
+		#logo {
+			margin: 0 auto;
+			display: table;
+		}
 	}
 
-	.l-content {
+	.section-video {
 		background: #41b7d8;
+
+		.panels-flexible-region-inside{
+			@include display(flex);
+			@include flex-flow(row wrap);
+			@include align-items(center);
+			@include justify-content(center);
+
+			.pane-block-1 {
+				display: table;
+			}
+		}
 	}
 
-	.l-region--sidebar-first {
+	.section-webform {
 		background: url('../images/bcg_slide-2.jpg') 50% 0 no-repeat fixed;
 	}
 
-	.l-region--sidebar-second {
+	.section-join-brc {
 		background: #41b7d8;
 	}
 }

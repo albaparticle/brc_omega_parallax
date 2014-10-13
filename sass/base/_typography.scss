@@ -15,7 +15,9 @@ a, a:visited {
 	}
 }
 
-.site-name {
+.site-name,
+.pane-page-site-name {
+	color: $font-header-color;
 	text-align: center;	
 	font-family: $font-header;
 	font-weight: bold;
@@ -42,7 +44,8 @@ a, a:visited {
 		color: $font-header-color;
 	}
 }
-.site-slogan {
+.site-slogan,
+.pane-page-slogan {
 	@include adjust-font-size-to(12px);
 	font-family: $font-slogan;
 	font-weight: normal;
