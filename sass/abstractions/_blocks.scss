@@ -1,0 +1,16 @@
+@mixin block-styles{
+	background: #D7E7EF;
+	background: rgba(215, 231, 239, 0.85);
+	@include box-shadow(0 0 3px 2px rgba(0, 0, 0, 0.25));
+	border: 1px solid rgba(125, 176, 202, 0.85);
+	padding: 7px;
+	margin: 10px;
+}
+
+@mixin block-reset{
+	background: none;
+	border: 0px;
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+}

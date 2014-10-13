@@ -1,0 +1,17 @@
+.l-footer {
+	background: #C9E3EE;
+	background: -webkit-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
+	background: -moz-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
+	background: -o-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
+	background: -ms-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
+	-svg-background: linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
+	background: linear-gradient(to bottom, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
+	@include background-image(linear-gradient(to bottom, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat);
+	margin: 20px auto 0;
+	color: #0D1A21;
+	font-size: 13px;
+	text-align: center;
+	padding: 0;
+	bottom: 0;
+	width: 100%;
+}

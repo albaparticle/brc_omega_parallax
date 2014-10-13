@@ -1,0 +1,154 @@
+// $breakpoint variables 
+
+// $phone: (max-width 800px) (max-height 500px);
+// $tablet: (min-width 801px) (min-height 501px);
+// $small: (min-width 1281px) (min-height 801px);
+// $medium:(min-width 1917px) (min-height 1201px);
+// $large: (min-width 2561px) (min-height 1601px);
+
+// $phone_p: (max-width 480px) (max-height 640px);
+// $phone_l: (max-width 800px) (max-height 500px);
+// $tablet_p: (min-width 481px) (min-height 641px);
+// $tablet_l: (min-width 801px) (min-height 501px);
+// $small: (min-width 1281px);
+// $medium:(min-width 1917px);
+// $large: (min-width 2561px);
+
+
+// $breakpoint variables for screen heights
+$mobile_small_height: (max-height 500px);
+$mobile_medium_height: (min-height 501px);
+$mobile_large_height: (min-height 501px);
+$desktop_small_height: (min-height 801px);
+$desktop_medium_height:(min-height 1201px);
+$desktop_large_height: (min-height 1601px);
+
+// $breakpoint variables for screen widths
+$mobile_small_width: (max-width 320px);
+$mobile_medium_width: (min-width 321px);
+$mobile_large_width: (min-width 641px);
+$mobile_xlarge_width: (min-width 961px);
+$desktop_small_width: (min-width 1281px);
+$desktop_medium_width:(min-width 1601px);
+$desktop_large_width: (min-width 1921px);
+
+
+
+//$phone_portrait: 480px;
+//$phone_landscape: (max-width 800px);
+//$tablet_portrait: (max-width 800px);
+//$tablet_landscape: (max-width 1280px);
+//$desktop: (max-width 1280px);
+//$big_screen: (min-width 1280px);
+
+
+
+
+// // assume min-width (by default) if only a number
+// $breakpoint-medium-width: 500px;
+// $breakpoint-medium-width-em: 30em;
+// // set min-width/max-width if both values are numbers
+// $breakpoint-medium-not-wide: 500px 700px;
+// // set min/max of feature if there are two numbers
+// $breakpoint-medium-height: height 300px 700px;
+// // if one value is a string, assume a feature/value pair
+// $breakpoint-kind-of-wide: min-width 700px;
+// $breakpoint-not-too-wide: max-width 700px;
+// // for multidimensional lists, assume each item is a feature value pair
+// $breakpoint-wide-portrait: (max-width 700px) (orientation portrait);
+// // handle one-sided features (ie. monochrome)
+// $breakpoint-wide-portrait-mono: (max-width 700px) (orientation portrait) (monochrome);
+// $breakpoint-mono: monochrome;
+// $breakpoint-hi-rez: min-resolution 1.5dppx;
+
+// /* Smartphones (portrait and landscape) ----------- */
+// @media only screen 
+// and (min-device-width : 320px) 
+// and (max-device-width : 480px) {
+// /* Styles */
+// }
+
+// /* Smartphones (landscape) ----------- */
+// @media only screen 
+// and (min-width : 321px) {
+// /* Styles */
+// }
+
+// /* Smartphones (portrait) ----------- */
+// @media only screen 
+// and (max-width : 320px) {
+// /* Styles */
+// }
+
+// /* iPads (portrait and landscape) ----------- */
+// @media only screen 
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) {
+// /* Styles */
+// }
+
+// /* iPads (landscape) ----------- */
+// @media only screen 
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) 
+// and (orientation : landscape) {
+// /* Styles */
+// }
+
+// /* iPads (portrait) ----------- */
+// @media only screen 
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) 
+// and (orientation : portrait) {
+// /* Styles */
+// }
+// /**********
+// iPad 3
+// **********/
+// @media
+// only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px)
+// and (orientation : landscape)
+// and (-webkit-min-device-pixel-ratio : 2) {
+// /* Styles */
+// }
+
+// @media
+// only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px)
+// and (orientation : portrait)
+// and (-webkit-min-device-pixel-ratio : 2) {
+// /* Styles */
+// }
+// /* Desktops and laptops ----------- */
+// @media only screen 
+// and (min-width : 1224px) {
+// /* Styles */
+// }
+
+// /* Large screens ----------- */
+// @media only screen 
+// and (min-width : 1824px) {
+// /* Styles */
+// }
+
+// /* iPhone 4 ----------- */
+// @media
+// only screen
+// and (min-device-width : 320px)
+// and (max-device-width : 480px)
+// and (orientation : landscape)
+// and (-webkit-min-device-pixel-ratio : 2) {
+// /* Styles */
+// }
+
+// @media
+// only screen
+// and (min-device-width : 320px)
+// and (max-device-width : 480px)
+// and (orientation : portrait)
+// and (-webkit-min-device-pixel-ratio : 2) {
+// /* Styles */
+// }

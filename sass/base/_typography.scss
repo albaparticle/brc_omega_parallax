@@ -1,0 +1,85 @@
+//Import Google Font
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+//Setting the Vertical rhythm
+@include establish-baseline;
+
+//Links
+a, a:visited {
+	color: #4A91B5;
+	text-decoration: none;
+
+	&:hover {
+		color: #09C1E1;
+		text-decoration: underline;
+	}
+}
+
+.site-name {
+	text-align: center;	
+	font-family: $font-header;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 auto rhythm(1, 44px);
+	@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
+	@include adjust-font-size-to(44px);
+
+	@include breakpoint(320px){
+		@include adjust-font-size-to(56px);
+		margin: 0 auto rhythm(1, 56px);
+	}
+	@include breakpoint(480px){
+		@include adjust-font-size-to(68px);
+		margin: 0 auto rhythm(1, 68px);
+	}
+	@include breakpoint(960px){
+		@include adjust-font-size-to(72px);
+		margin: 0 auto rhythm(1, 72px);
+	}
+
+	a {
+		text-decoration: none;
+		color: $font-header-color;
+	}
+}
+.site-slogan {
+	@include adjust-font-size-to(12px);
+	font-family: $font-slogan;
+	font-weight: normal;
+	color: $font-slogan-color;
+	line-height: 1.5;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+	@include breakpoint(320px){
+		@include adjust-font-size-to(14px);
+	}
+	@include breakpoint(480px){
+		@include adjust-font-size-to(16px);
+	}
+	@include breakpoint(960px){
+		@include adjust-font-size-to(18px);
+	}
+}
+
+.page-title {
+	color: $title-font-color;
+	@include adjust-font-size-to($title-font-size);
+	font-weight: normal;
+	text-align: center;
+}
+
+.block__title {
+	color: $title-font-color;
+	text-align: center;
+	@include adjust-font-size-to(19px);
+}
+
+.l-footer p {
+	@include adjust-font-size-to(13px);
+}
+
+.l-footer a {
+	color: #386E8A;
+}

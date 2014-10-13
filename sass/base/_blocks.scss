@@ -1,0 +1,23 @@
+.l-main {
+	.messages-status,
+	article,
+	.tabs--primary,
+	.action-links {
+		// @include block-styles;
+	}
+}
+
+.block {
+	// @include block-styles;
+}
+
+#block-block-4 {
+	background: none;
+	border: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+}
+
+.user-profile .field{
+	display: table;
+}

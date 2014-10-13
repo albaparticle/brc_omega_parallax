@@ -1,0 +1,43 @@
+/**
+ * 1. Provide background image to center and adjust to window size
+ *
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * https://github.com/necolas/normalize.css
+ */
+ 
+// html {
+//   @include breakpoint($mobile_small_height) {
+//     background-image: image-url("page-phone-landscape.jpg");
+//     //background-color: red;
+//   }
+//   @include breakpoint($mobile_large_height) {
+//     background-image: image-url("page-tablet-landscape.jpg");
+//     //background-color: orange;
+//   }
+//   @include breakpoint($desktop_small_height) {
+//     background-image: image-url("page-screen-small.jpg");
+//     //background-color: yellow;
+//   }
+//   @include breakpoint($desktop_medium_height) {
+//     background-image: image-url("page-screen-medium.jpg");
+//     //background-color: green;
+//   }
+//   @include breakpoint($desktop_large_height) {
+//     background-image: image-url("page-screen-large.jpg");
+//     //background-color: blue;
+//   }
+// }
+  
+
+html {
+  /* 1 */
+  //background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left left; 
+  background-size: cover;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}

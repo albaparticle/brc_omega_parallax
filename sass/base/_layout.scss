@@ -1,0 +1,40 @@
+.l-header,
+.l-main {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.l-branding {
+	@include display(flex);
+	@include justify-content(center);
+	@include flex-flow(row wrap);
+}
+
+.l-region--branding {
+	@include display(flex);
+	@include justify-content(center);
+	@include flex-flow(row wrap);
+
+	* {
+		@include flex(1 100%);
+
+		@include breakpoint(600px){
+			@include flex(1 0px);
+		}
+	}
+}
+
+.l-region--sidebar-second {
+	@include display(flex);
+	display: flex;
+	@include justify-content(center);
+	@include flex-flow(row wrap);
+
+	* {
+		@include flex(1 100%);
+
+		@include breakpoint(600px){
+			@include flex(1 0px);
+		}
+	}
+}

@@ -1,0 +1,32 @@
+name = BRC Omega Parallax
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/brc-omega-parallax.normalize.css
+stylesheets[all][] = css/brc-omega-parallax.hacks.css
+stylesheets[all][] = css/brc-omega-parallax.styles.css
+stylesheets[all][] = css/brc-omega-parallax.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/brc-omega-parallax.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
