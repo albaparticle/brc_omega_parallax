@@ -57,16 +57,6 @@
     }
   };
 
-  Drupal.behaviors.windowHeight = {
-    attach: function (context, settings) {
-      var winH = $(window).height();
-      $('.l-header').css({"height": winH});
-      $('.l-content').css({"height": winH});
-      $('.l-region--sidebar-first').css({"height": winH});
-      $('.l-region--sidebar-second').css({"height": winH});
-    }
-  };
-
   Drupal.behaviors.loadingScreen = {
     attach: function (context, settings) {
       $(window).load(function(){
