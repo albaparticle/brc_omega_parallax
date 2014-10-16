@@ -124,6 +124,8 @@
     	background: url('../images/page-screen-large.jpg');
 		@include background-size(cover);
     @include parallax(-1);
+    height: 115%;       // fallback for older browsers
+    height: 115vh;
     }
   }
 
