@@ -6,30 +6,6 @@
  * https://github.com/necolas/normalize.css
  */
  
-// html {
-//   @include breakpoint($mobile_small_height) {
-//     background-image: image-url("page-phone-landscape.jpg");
-//     //background-color: red;
-//   }
-//   @include breakpoint($mobile_large_height) {
-//     background-image: image-url("page-tablet-landscape.jpg");
-//     //background-color: orange;
-//   }
-//   @include breakpoint($desktop_small_height) {
-//     background-image: image-url("page-screen-small.jpg");
-//     //background-color: yellow;
-//   }
-//   @include breakpoint($desktop_medium_height) {
-//     background-image: image-url("page-screen-medium.jpg");
-//     //background-color: green;
-//   }
-//   @include breakpoint($desktop_large_height) {
-//     background-image: image-url("page-screen-large.jpg");
-//     //background-color: blue;
-//   }
-// }
-  
-
 html {
   /* 1 */
   //background-color: #FFFFFF;
@@ -40,4 +16,27 @@ html {
   /* 2 */
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+body.not-front {
+  @include breakpoint($mobile_small_height) {
+    background-image: image-url("page-phone-landscape.jpg");
+    //background-color: red;
+  }
+  @include breakpoint($mobile_large_height) {
+    background-image: image-url("page-tablet-landscape.jpg");
+    //background-color: orange;
+  }
+  @include breakpoint($desktop_small_height) {
+    background-image: image-url("page-screen-small.jpg");
+    //background-color: yellow;
+  }
+  @include breakpoint($desktop_medium_height) {
+    background-image: image-url("page-screen-medium.jpg");
+    //background-color: green;
+  }
+  @include breakpoint($desktop_large_height) {
+    background-image: image-url("page-screen-large.jpg");
+    //background-color: blue;
+  }
 }
