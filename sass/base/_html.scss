@@ -6,18 +6,6 @@
  * https://github.com/necolas/normalize.css
  */
  
-html {
-  /* 1 */
-  //background-color: #FFFFFF;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left left; 
-  background-size: cover;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
 body.not-front {
   @include breakpoint($mobile_small_height) {
     background-image: image-url("page-phone-landscape.jpg");
@@ -39,4 +27,16 @@ body.not-front {
     background-image: image-url("page-screen-large.jpg");
     //background-color: blue;
   }
+}
+
+body {
+  /* 1 */
+  //background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left left; 
+  background-size: cover;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }

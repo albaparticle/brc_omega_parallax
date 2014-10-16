@@ -17,8 +17,29 @@
  *    user zoom.
  * https://github.com/necolas/normalize.css
  */
+@media (max-height: 500px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\000039}}
-html {
+  body.not-front {
+    background-image: url('../images/page-phone-landscape.jpg?1411470938'); } }
+@media (min-height: 501px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\000039}}
+  body.not-front {
+    background-image: url('../images/page-tablet-landscape.jpg?1411470938'); } }
+@media (min-height: 801px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\000039}}
+  body.not-front {
+    background-image: url('../images/page-screen-small.jpg?1411470938'); } }
+@media (min-height: 1201px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\000039}}
+  body.not-front {
+    background-image: url('../images/page-screen-medium.jpg?1411470938'); } }
+@media (min-height: 1601px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\000039}}
+  body.not-front {
+    background-image: url('../images/page-screen-large.jpg?1411470938'); } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000332}}
+body {
   /* 1 */
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -27,27 +48,6 @@ html {
   /* 2 */
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
-
-@media (max-height: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000321}}
-  body.not-front {
-    background-image: url('../images/page-phone-landscape.jpg?1411470938'); } }
-@media (min-height: 501px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000321}}
-  body.not-front {
-    background-image: url('../images/page-tablet-landscape.jpg?1411470938'); } }
-@media (min-height: 801px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000321}}
-  body.not-front {
-    background-image: url('../images/page-screen-small.jpg?1411470938'); } }
-@media (min-height: 1201px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000321}}
-  body.not-front {
-    background-image: url('../images/page-screen-medium.jpg?1411470938'); } }
-@media (min-height: 1601px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000321}}
-  body.not-front {
-    background-image: url('../images/page-screen-large.jpg?1411470938'); } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_layout\.scss}line{font-family:\000031}}
 .l-header,
