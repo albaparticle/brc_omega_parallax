@@ -124,8 +124,8 @@ img, media {
   max-width: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_media\.scss}line{font-family:\000035}}
-iframe.media-youtube-player {
-  display: block;
+#brc-video {
+  display: table;
   margin: 0 auto; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
