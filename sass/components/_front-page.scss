@@ -57,7 +57,6 @@
       @include display(flex);
       @include flex-flow(row wrap);
       @include justify-content(center);
-      top: 125px;			// Adjustment to make the site name and logo visible
 
       .pane-pane-messages {
         width: 100%;
