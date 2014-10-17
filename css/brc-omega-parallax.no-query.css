@@ -394,7 +394,7 @@ a, a:visited {
     background: #99d865; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003105}}
   .front #section-fracking .parallax__layer--back {
-    background: #99d865; }
+    background: url("../images/fracking.jpg"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003111}}
   .front #section-join-brc .parallax__layer--deep {
     background: #b8df65; }
