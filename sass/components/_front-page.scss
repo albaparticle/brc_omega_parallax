@@ -1,4 +1,12 @@
 .front {
+
+	overflow: hidden;
+
+	* {
+		margin:0;
+		padding:0;
+	}
+	
 	#loading {
 		background: url('../images/loading-page.jpg') 50% 0 no-repeat fixed;
 		background-size: cover;
@@ -45,20 +53,6 @@
     right: 0;
     bottom: 0;
   }
-
-  body.front {
-    overflow: hidden;
-  }
-
-  body {
-    font: 100% / 1.5 Arial;
-  }
-
-  * {
-    margin:0;
-    padding:0;
-  }
-
 
   /* style the groups
   --------------------------------------------- */
