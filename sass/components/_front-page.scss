@@ -53,10 +53,11 @@
 
   #section-header {
     .parallax__layer--base {
-    	@include parallax(-0.2);
+    	@include parallax(0.3);
       @include display(flex);
       @include flex-flow(row wrap);
       @include justify-content(center);
+      top: 125px;			// Adjustment to make the site name and logo visible
 
       .pane-pane-messages {
         width: 100%;
