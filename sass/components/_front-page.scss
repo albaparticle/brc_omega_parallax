@@ -74,6 +74,9 @@
   }
 
   #section-waters {
+  	height: 150%;
+  	height: 150vh;		// Added to overlap with the next section
+
     .parallax__layer--base {
       @include parallax(0);
 	  @include background-image(linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(34,167,240,1) 21%,rgba(34,167,240,1) 100%)); // This one doesn't output CSS :(
@@ -103,7 +106,7 @@
     	background: rgb(153,216,101);
 	}
 	.parallax__layer--back {
-    	background-image: url('../images/fracking.png') no-repeat;
+    	background-image: url('../images/fracking.png');
     	background-size: contain;
     	background-repeat: no-repeat;
     	@include transform(translateY(-75%));
