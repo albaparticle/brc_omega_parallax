@@ -103,13 +103,18 @@
 
   #section-fracking {
     .parallax__layer--base {
-    	background: rgb(153,216,101);
+    	background: black;
+    	color: white;
+
+    	h2.pane-title {
+    		text-align: center;
+    	}
 	}
 	.parallax__layer--back {
     	background-image: url('../images/fracking.png');
     	background-size: contain;
     	background-repeat: no-repeat;
-    	@include transform(translateY(-75%));
+    	@include transform(translateY(-70%));
 	}
   }
 
