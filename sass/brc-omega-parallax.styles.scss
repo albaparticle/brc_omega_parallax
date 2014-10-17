@@ -30,8 +30,8 @@
   .parallax {
     height: 500px; /* fallback for older browsers */
     height: 100vh;
-    // overflow-x: hidden;
-    // overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     // -webkit-perspective: 300px;
     // perspective: 300px;
   }
@@ -121,6 +121,10 @@
       @include display(flex);
       @include flex-flow(row wrap);
       @include justify-content(center);
+
+      .pane-pane-messages {
+        width: 100%;
+      }
     }
 
     .parallax__layer--back {
