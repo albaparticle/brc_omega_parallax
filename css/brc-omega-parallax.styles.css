@@ -417,7 +417,7 @@ a, a:visited {
     min-height: 115%;
     min-height: 115vh; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000377}}
-  .front #section-video .parallax__layer--base {
+  .front #section-waters .parallax__layer--base {
     -webkit-transform: translateZ(0px) scale(1);
     -moz-transform: translateZ(0px) scale(1);
     -ms-transform: translateZ(0px) scale(1);
@@ -462,14 +462,17 @@ a, a:visited {
     align-content: center;
     -ms-flex-line-pack: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000394}}
-  .front #section-video h2.pane-title {
+  .front #section-waters h2.pane-title {
     color: white;
     text-align: center;
     width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003102}}
-  .front #section-webform .parallax__layer--base {
+  .front #section-fracking .parallax__layer--base {
     background: #99d865; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003105}}
+  .front #section-fracking .parallax__layer--back {
+    background: #99d865; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003111}}
   .front #section-join-brc .parallax__layer--deep {
     background: #b8df65; }
 
