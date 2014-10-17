@@ -103,8 +103,10 @@
     	background: rgb(153,216,101);
 	}
 	.parallax__layer--back {
-    	background: url('../images/fracking.png');
-    	background-size: cover;
+    	background-image: url('../images/fracking.png') no-repeat;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	@include transform(translateY(-75%));
 	}
   }
 
