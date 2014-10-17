@@ -151,17 +151,16 @@ a, a:visited {
   font-weight: bold;
   padding: 0;
   margin: 3% 0;
-  height: 0;
   text-shadow: 2.8px 2.8px 4px rgba(23, 23, 23, 0.82);
   font-size: 2.75em;
   line-height: 1.09091em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000343}}
   .site-name a,
   .pane-page-site-name a {
     text-decoration: none;
     color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000348}}
 .site-slogan,
 .pane-page-slogan {
   font-size: 0.75em;
@@ -172,10 +171,9 @@ a, a:visited {
   line-height: 1.5;
   text-align: center;
   padding: 0;
-  margin: 1% auto;
-  height: 0; }
+  margin: 3% auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000370}}
 .page-title {
   color: #0F3C4D;
   font-size: 2.25em;
@@ -183,19 +181,19 @@ a, a:visited {
   font-weight: normal;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
 .block__title {
   color: #0F3C4D;
   text-align: center;
   font-size: 1.1875em;
   line-height: 1.26316em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000383}}
 .l-footer p {
   font-size: 0.8125em;
   line-height: 1.84615em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000387}}
 .l-footer a {
   color: #386E8A; }
 
@@ -216,57 +214,197 @@ a, a:visited {
   bottom: 0;
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\000031}}
+.front {
+  /* Parallax base styles
+    --------------------------------------------- */
+  /* style the groups
+  --------------------------------------------- */ }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\000032}}
-.front #loading {
-  background: url("../images/loading-page.jpg") 50% 0 no-repeat fixed;
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  -webkit-align-content: center;
-  -moz-align-content: center;
-  align-content: center;
-  -ms-flex-line-pack: center;
-  -webkit-flex-flow: row wrap;
-  -moz-flex-flow: row wrap;
-  flex-flow: row wrap; }
+  .front #loading {
+    background: url("../images/loading-page.jpg") 50% 0 no-repeat fixed;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    align-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000313}}
-  .front #loading .loading-img {
-    width: 300px;
-    height: 300px; }
+    .front #loading .loading-img {
+      width: 300px;
+      height: 300px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000318}}
-  .front #loading .loading-msg {
-    text-align: center;
-    width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000324}}
-.front .panels-flexible-row,
-.front .panels-flexible-row > *,
-.front .panels-flexible-row > * > *,
-.front .panels-flexible-row > * > * > * {
-  min-height: 680px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000331}}
-.front .panels-flexible-region {
-  width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_header\.scss}line{font-family:\000031}}
-.pane-page-logo {
-  height: 0; }
+    .front #loading .loading-msg {
+      text-align: center;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_parallax\.scss}line{font-family:\0000327}}
+  .parallax {
+    overflow: auto;
+    -webkit-perspective: 1px;
+    -moz-perspective: 1px;
+    perspective: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_parallax\.scss}line{font-family:\0000351}}
+    .parallax, .parallax * {
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      -o-transform-style: preserve-3d;
+      transform-style: preserve-3d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000328}}
+  .front .parallax {
+    height: 500px;
+    /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000335}}
+  .front .parallax__group {
+    position: relative;
+    min-height: 500px;
+    /* fallback for older browsers */
+    min-height: 100vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000341}}
+  .front .parallax__layer {
+    position: absolute;
+    /* this will position the layers on top of each other */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000349}}
+  .front body.front {
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000353}}
+  .front body {
+    font: 100% / 1.5 Arial; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000357}}
+  .front * {
+    margin: 0;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000367}}
+  .front #section-header .parallax__layer--base {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000372}}
+    .front #section-header .parallax__layer--base .pane-pane-messages {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000377}}
+  .front #section-header .parallax__layer--back {
+    background: url("../images/page-screen-large.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-transform: translateZ(-1px) scale(2);
+    -moz-transform: translateZ(-1px) scale(2);
+    -ms-transform: translateZ(-1px) scale(2);
+    -o-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+    z-index: -100;
+    min-height: 115%;
+    min-height: 115vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000387}}
+  .front #section-video {
+    z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000390}}
+    .front #section-video .parallax__layer--base {
+      -webkit-transform: translateZ(0.3px) scale(0.7);
+      -moz-transform: translateZ(0.3px) scale(0.7);
+      -ms-transform: translateZ(0.3px) scale(0.7);
+      -o-transform: translateZ(0.3px) scale(0.7);
+      transform: translateZ(0.3px) scale(0.7);
+      z-index: 30;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: end;
+      -moz-box-align: end;
+      box-align: end;
+      -webkit-align-items: flex-end;
+      -moz-align-items: flex-end;
+      -ms-align-items: flex-end;
+      -o-align-items: flex-end;
+      align-items: flex-end;
+      -ms-flex-align: end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\0000397}}
+    .front #section-video .parallax__layer--back {
+      background: -moz-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 167, 240, 0)), color-stop(30%, #22a7f0), color-stop(100%, #22a7f0));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0022a7f0', endColorstr='#22a7f0',GradientType=0 );
+      /* IE6-9 */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003111}}
+  .front #section-webform {
+    z-index: 4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003114}}
+    .front #section-webform .parallax__layer--base {
+      background: #99d865; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003119}}
+  .front #section-join-brc {
+    z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_front-page\.scss}line{font-family:\00003122}}
+    .front #section-join-brc .parallax__layer--deep {
+      background: #b8df65; }
 
 /* Main Menu */
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/components\/_navigation\.scss}line{font-family:\000032}}
@@ -418,188 +556,3 @@ a, a:visited {
 .tabs--secondary a {
   padding: 0em 0em;
   margin: 0em 0; }
-
-/* Parallax base styles
---------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_parallax\.scss}line{font-family:\0000327}}
-.parallax {
-  overflow: auto;
-  -webkit-perspective: 1px;
-  -moz-perspective: 1px;
-  perspective: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_parallax\.scss}line{font-family:\0000351}}
-  .parallax, .parallax * {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\0000330}}
-.parallax {
-  height: 500px;
-  /* fallback for older browsers */
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\0000339}}
-.parallax__group {
-  position: relative;
-  min-height: 500px;
-  /* fallback for older browsers */
-  min-height: 100vh; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\0000347}}
-.parallax__layer {
-  position: absolute;
-  /* this will position the layers on top of each other */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
-
-/* demo styles
---------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\0000387}}
-body.front {
-  overflow: hidden; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\0000391}}
-body {
-  font: 100% / 1.5 Arial; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\0000395}}
-* {
-  margin: 0;
-  padding: 0; }
-
-/* centre the content in the parallax layers */
-/* style the groups
---------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003120}}
-#section-header .parallax__layer--base {
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -moz-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003125}}
-  #section-header .parallax__layer--base .pane-pane-messages {
-    width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003130}}
-#section-header .parallax__layer--back {
-  background: url("../images/page-screen-large.jpg");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -webkit-transform: translateZ(-1px) scale(2);
-  -moz-transform: translateZ(-1px) scale(2);
-  -ms-transform: translateZ(-1px) scale(2);
-  -o-transform: translateZ(-1px) scale(2);
-  transform: translateZ(-1px) scale(2);
-  z-index: -100;
-  min-height: 115%;
-  min-height: 115vh; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003140}}
-#section-video {
-  z-index: 3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003143}}
-  #section-video .parallax__layer--base {
-    -webkit-transform: translateZ(0.3px) scale(0.7);
-    -moz-transform: translateZ(0.3px) scale(0.7);
-    -ms-transform: translateZ(0.3px) scale(0.7);
-    -o-transform: translateZ(0.3px) scale(0.7);
-    transform: translateZ(0.3px) scale(0.7);
-    z-index: 30;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    -o-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: end;
-    -moz-box-align: end;
-    box-align: end;
-    -webkit-align-items: flex-end;
-    -moz-align-items: flex-end;
-    -ms-align-items: flex-end;
-    -o-align-items: flex-end;
-    align-items: flex-end;
-    -ms-flex-align: end; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003150}}
-  #section-video .parallax__layer--back {
-    background: -moz-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 167, 240, 0)), color-stop(30%, #22a7f0), color-stop(100%, #22a7f0));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, rgba(34, 167, 240, 0) 0%, #22a7f0 30%, #22a7f0 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0022a7f0', endColorstr='#22a7f0',GradientType=0 );
-    /* IE6-9 */ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003164}}
-#section-webform {
-  z-index: 4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003167}}
-  #section-webform .parallax__layer--base {
-    background: #99d865; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003172}}
-#section-join-brc {
-  z-index: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003175}}
-  #section-join-brc .parallax__layer--deep {
-    background: #b8df65; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003180}}
-#group5 {
-  z-index: 3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003183}}
-  #group5 .parallax__layer--base {
-    background: #d6e564; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003188}}
-#group6 {
-  z-index: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003191}}
-  #group6 .parallax__layer--back {
-    background: #f5eb64; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003196}}
-#group7 {
-  z-index: 3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/brc-omega-parallax\.styles\.scss}line{font-family:\00003199}}
-  #group7 .parallax__layer--base {
-    background: #fff164; }

@@ -23,7 +23,6 @@ a, a:visited {
 	font-weight: bold;
 	padding: 0;
 	margin: 3% 0;
-	height: 0;
 	// margin: 0 auto rhythm(1, 44px);
 	@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
 	@include adjust-font-size-to(44px);
@@ -55,8 +54,7 @@ a, a:visited {
 	line-height: 1.5;
 	text-align: center;
 	padding: 0;
-	margin: 1% auto;
-	height: 0;
+	margin: 3% auto;
 
 	@include breakpoint(320px){
 		@include adjust-font-size-to(14px);
