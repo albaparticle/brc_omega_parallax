@@ -22,21 +22,23 @@ a, a:visited {
 	font-family: $font-header;
 	font-weight: bold;
 	padding: 0;
-	margin: 0 auto rhythm(1, 44px);
+	margin: 3% 0;
+	height: 0;
+	// margin: 0 auto rhythm(1, 44px);
 	@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
 	@include adjust-font-size-to(44px);
 
 	@include breakpoint(320px){
 		@include adjust-font-size-to(56px);
-		margin: 0 auto rhythm(1, 56px);
+		// margin: 0 auto rhythm(1, 56px);
 	}
 	@include breakpoint(480px){
 		@include adjust-font-size-to(68px);
-		margin: 0 auto rhythm(1, 68px);
+		// margin: 0 auto rhythm(1, 68px);
 	}
 	@include breakpoint(960px){
 		@include adjust-font-size-to(72px);
-		margin: 0 auto rhythm(1, 72px);
+		// margin: 0 auto rhythm(1, 72px);
 	}
 
 	a {
@@ -53,7 +55,8 @@ a, a:visited {
 	line-height: 1.5;
 	text-align: center;
 	padding: 0;
-	margin: 0;
+	margin: 1% auto;
+	height: 0;
 
 	@include breakpoint(320px){
 		@include adjust-font-size-to(14px);
