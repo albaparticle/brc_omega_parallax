@@ -7,8 +7,12 @@
 	}
 }
 
+.l-content article {
+	@include block-styles;
+}
+
 .block {
-	// @include block-styles;
+	@include block-styles;
 }
 
 #block-block-4 {
