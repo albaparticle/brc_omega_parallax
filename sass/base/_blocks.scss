@@ -1,10 +1,5 @@
-.l-main {
-	.messages-status,
-	article,
-	.tabs--primary,
-	.action-links {
-		// @include block-styles;
-	}
+.breadcrumb {
+	@include block-styles;
 }
 
 .l-content {
