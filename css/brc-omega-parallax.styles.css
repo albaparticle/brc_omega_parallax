@@ -291,12 +291,12 @@ a, a:visited {
   font-size: 1.1875em;
   line-height: 1.26316em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000385}}
 .l-footer p {
   font-size: 0.8125em;
-  line-height: 1.84615em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000388}}
+  line-height: 1.84615em;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000390}}
 .l-footer a {
   color: #386E8A; }
 

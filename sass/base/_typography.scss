@@ -81,10 +81,13 @@ a, a:visited {
 	@include adjust-font-size-to(19px);
 }
 
-.l-footer p {
-	@include adjust-font-size-to(13px);
-}
+.l-footer {
+	p {
+		@include adjust-font-size-to(13px);
+		margin: 0;
+	}
 
-.l-footer a {
-	color: #386E8A;
+	a {
+		color: #386E8A;
+	}
 }
