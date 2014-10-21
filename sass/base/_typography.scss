@@ -71,8 +71,8 @@ a, a:visited {
 .page-title {
 	color: $title-font-color;
 	@include adjust-font-size-to($title-font-size);
-	font-weight: normal;
-	text-align: center;
+	// font-weight: normal;
+	// text-align: center;
 }
 
 .block__title {

@@ -6,7 +6,8 @@
  * https://github.com/necolas/normalize.css
  */
  
-body.not-front {
+body.not-front,
+body.maintenance-page {
   @include breakpoint($mobile_small_height) {
     background-image: image-url("page-phone-landscape.jpg");
     //background-color: red;

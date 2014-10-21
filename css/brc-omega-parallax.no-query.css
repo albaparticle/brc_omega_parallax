@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_blocks\.scss}line{font-family:\0000310}}
-.l-content article {
+.l-content {
   background: #D7E7EF;
   background: rgba(215, 231, 239, 0.85);
   -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.25);
@@ -39,7 +39,7 @@
  *    user zoom.
  * https://github.com/necolas/normalize.css
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_html\.scss}line{font-family:\0000333}}
 body {
   /* 1 */
   background-repeat: no-repeat;
@@ -200,9 +200,7 @@ a, a:visited {
 .page-title {
   color: #0F3C4D;
   font-size: 2.25em;
-  line-height: 1.33333em;
-  font-weight: normal;
-  text-align: center; }
+  line-height: 1.33333em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/parallax\/sites\/all\/themes\/brc_omega_parallax\/sass\/base\/_typography\.scss}line{font-family:\0000378}}
 .block__title {
